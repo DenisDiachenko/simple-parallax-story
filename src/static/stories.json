@@ -1,0 +1,89 @@
+[
+	{
+		"title": "Insomnia",
+		"description": "A human that can't fall asleep",
+		"stages": [
+			{
+				"stage": "initial-stage",
+				"title": "I can’t fall asleep for so long ... Maybe this medicine will help me?",
+				"actions": [
+					{ "label": "Take a pill", "nextStage": "happy-end" },
+					{ "label": "Don't drink the pill", "nextStage": "rabbit-stage" }
+				]
+			},
+			{
+				"stage": "rabbit-stage",
+				"title": "You dreamed that you were Alice in Wonderland. A rabbit without pants with hints of a sexual nature runs to you",
+				"actions": [
+					{ "label": "Hm, let's see...", "nextStage": "final-stage" },
+					{ "label": "To run!", "nextStage": "final-stage" }
+				]
+			},
+			{
+				"stage": "final-stage",
+				"title": "You even didn't notice how a rabbit did it, but now you're one of a lot of his victims",
+				"actions": [
+					{ "label": "Close", "nextStage": null }
+				]
+			}
+		]
+	},
+	{
+		"title": "Insomnia",
+		"description": "A human that can't fall asleep",
+		"stages": [
+			{
+				"stage": "initial-stage",
+				"title": "I can’t fall asleep for so long ... Maybe this medicine will help me?",
+				"actions": [
+					{ "label": "Take a pill", "nextStage": "happy-end" },
+					{ "label": "Don't drink the pill", "nextStage": "rabbit-stage" }
+				]
+			},
+			{
+				"stage": "rabbit-stage",
+				"title": "You dreamed that you were Alice in Wonderland. A rabbit without pants with hints of a sexual nature runs to you",
+				"actions": [
+					{ "label": "Hm, let's see...", "nextStage": "final-stage" },
+					{ "label": "To run!", "nextStage": "final-stage" }
+				]
+			},
+			{
+				"stage": "final-stage",
+				"title": "You even didn't notice how a rabbit did it, but now you're one of a lot of his victims",
+				"actions": [
+					{ "label": "Close", "nextStage": null }
+				]
+			}
+		]
+	},
+	{
+		"title": "Insomnia",
+		"description": "A human that can't fall asleep",
+		"stages": [
+			{
+				"stage": "initial-stage",
+				"title": "I can’t fall asleep for so long ... Maybe this medicine will help me?",
+				"actions": [
+					{ "label": "Take a pill", "nextStage": "happy-end" },
+					{ "label": "Don't drink the pill", "nextStage": "rabbit-stage" }
+				]
+			},
+			{
+				"stage": "rabbit-stage",
+				"title": "You dreamed that you were Alice in Wonderland. A rabbit without pants with hints of a sexual nature runs to you",
+				"actions": [
+					{ "label": "Hm, let's see...", "nextStage": "final-stage" },
+					{ "label": "To run!", "nextStage": "final-stage" }
+				]
+			},
+			{
+				"stage": "final-stage",
+				"title": "You even didn't notice how a rabbit did it, but now you're one of a lot of his victims",
+				"actions": [
+					{ "label": "Close", "nextStage": null }
+				]
+			}
+		]
+	}
+]
