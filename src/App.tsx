@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-function App() {
-  return (
-    <div className="App">
+import { Store } from './store';
 
-    </div>
-  );
+import { inject } from 'mobx-react'
+
+import Router from './routes';
+
+interface IProps {
+  store?: Store;
 }
 
-export default App;
+const App = ({ store }: IProps) => {
+
+  useEffect(() => {
+    store?.fetchData();
+  });
+
+  return (
+    <Router />
+  )
+}
+
+export default inject('store')(App);
