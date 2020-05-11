@@ -1,7 +1,6 @@
 [
 	{
 		"title": "Insomnia",
-		"description": "A human that can't fall asleep",
 		"preview": {
 			"background": "#0c0101",
 			"title": "What dreams do you see most often?"
@@ -77,6 +76,142 @@
 				],
 				"actions": [
 					{ "label": "Zzzzz...", "nextStage": null }
+				]
+			}
+		]
+	},
+	{
+		"title": "Donut",
+		"preview": {
+			"background": "#e08764",
+			"title": "Why not become a donut?"
+		},
+		"stages": [
+			{
+				"stage": "initial-stage",
+				"title": "You are the donut who just escaped from the bakery. Want an adventure?",
+				"background": {
+					"img": "https://img.freepik.com/free-vector/modern-city-skyline-background_77417-791.jpg?size=626&ext=jpg"
+				},
+				"assets": [
+					{ "url": "https://www.flaticon.com/premium-icon/icons/svg/783/783083.svg", "index": 2 }
+				],
+				"actions": [
+					{ "label": "Yes! I was baked for this!!", "nextStage": "meet-bear"},
+					{ "label": "No, I'm too scared to face the future!", "nextStage": "forced-meet-bear"}
+				]
+			},
+			{
+				"stage": "meet-bear",
+				"title": "You headed down the path to the forest. At the entrance to the forest you met a bear. He suggested going to the bushes to eat berries.",
+				"background": {
+					"img": "https://static.vecteezy.com/system/resources/thumbnails/000/181/709/original/AForest3.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/1998/1998571.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
+				],
+				"actions": [
+					{ "label": "Oh yes, I love berries and bears!", "nextStage": "in-the-bushes" },
+					{ "label": "I won’t go with him, he looks very suspicious", "nextStage": "meet-fox" }
+				]
+			},
+			{
+				"stage": "forced-meet-bear",
+				"title": "A strong wind blew and brought you into the forest, and you rolled right to the bear. He suggested eating berries",
+				"background": {
+					"img": "https://static.vecteezy.com/system/resources/thumbnails/000/181/709/original/AForest3.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/1998/1998571.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
+				],
+				"actions": [
+					{ "label": "Oh yes, I love berries and bears!", "nextStage": "in-the-bushes" },
+					{ "label": "I won’t go with him, he looks very suspicious", "nextStage": "meet-fox" }
+				]
+			},
+			{
+				"stage": "in-the-bushes",
+				"title": "You came to a bush with raspberries and started eating raspberries. You feel very full, but the sneaky bear offered even more berries.",
+				"background": {
+					"img": "https://image.flaticon.com/icons/svg/1147/1147600.svg",
+					"color": "#84bee6"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/1998/1998571.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/765/765586.svg", "index": 0 }
+				],
+				"actions": [
+					{ "label": "Yes, why not", "nextStage": "death-from-overeating" },
+					{ "label": "No, I'm full and go my way", "nextStage": "meet-fox" }
+				]
+			},
+			{
+				"stage": "meet-fox",
+				"title": "Further in the forest you met a hungry fox. You are very dusty and she invited you to wash in the lake.",
+				"background": {
+					"img": "https://static.vecteezy.com/system/resources/thumbnails/000/181/290/original/Abstract_Forest_Illustration.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/614/614107.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 1},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 4}
+				],
+				"actions": [
+					{ "label": "Why not, this fox doesn't look evil", "nextStage": "death-from-fox" },
+					{ "label": "Hmm, very suspicious, I'll probably go from here.", "nextStage": "happy-end" }
+				]
+			},
+			{
+				"stage": "death-from-overeating",
+				"title": "You ate too many berries, and the dough was not ready for so many toppings. You are dead. See you in the next story.",
+				"background": {
+					"img": "https://image.flaticon.com/icons/svg/1147/1147600.svg",
+					"color": "#84bee6"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2083/2083740.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/2487/2487401.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/2083/2083740.svg", "index": 3 },
+					{ "url": "https://image.flaticon.com/icons/svg/2083/2083740.svg", "index": 4 },
+					{ "url": "https://image.flaticon.com/icons/svg/2083/2083740.svg", "index": 5 }
+				],
+				"actions": [
+					{ "label": "I will follow a healthy diet", "nextStage": null }
+				]
+			},
+			{
+				"stage": "death-from-fox",
+				"title": "After washing, the fox ate you. But do not be sad, animals can not digest wet dough. You took her with you.",
+				"background": {
+					"img": "https://img.freepik.com/free-vector/_82574-7683.jpg?size=626&ext=jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/1940/1940970.svg", "index": 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/2487/2487401.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/2532/2532414.svg", "index": 6 }
+				],
+				"actions": [
+					{ "label": "I will not eat wet dough", "nextStage": null }
+				]
+			},
+			{
+				"stage": "happy-end",
+				"title": "You died of old age with the famous donut. Your caution kept you. Respect +",
+				"background": {
+					"img": "https://cdn.clipart.email/f8b42cae004af0800b6690e4034a2bba_cityscape-clipart-city-night-pencil-and-in-color-cityscape-_1920-1080.jpeg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2007/2007907.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 5 },
+					{ "url": "https://image.flaticon.com/icons/svg/1083/1083425.svg", "index": 2 }
+				],
+				"actions": [
+					{ "label": "Yeah, I am like this", "nextStage": null }
 				]
 			}
 		]

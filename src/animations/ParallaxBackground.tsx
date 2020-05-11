@@ -32,7 +32,7 @@ export const ParallaxBackground = ({ bgOptions, style, coords }: IProps) => {
 				style={{
 					backgroundImage: `url(${url})`,
 					transform: props.xy.interpolate(interpolateFn),
-					opacity: index  > 1 && index % 2 === 0 ? 0.9 : 1,
+					opacity: index  > 0 && index % 2 === 0 ? 0.9 : 1,
 				}}
 			/>
 		))}
