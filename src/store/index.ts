@@ -2,21 +2,34 @@ import { observable, action } from 'mobx';
 
 import fetchStories from '../api/requests/fetchStories';
 
-interface IActions {
-	label: string;
-	nextStage: string | null;
+import {
+	IActions,
+	IAsset,
+} from '../types';
+
+interface Background {
+	color: string;
+	img: string;
 }
 
 interface IStages {
 	stage: string;
 	title: string;
 	actions: IActions[];
+	background: Background;
+	assets: IAsset[];
+}
+
+interface IPreview {
+	title: string;
+	background: string;
 }
 
 interface IStory {
 	title: string;
 	description: string;
 	stages: IStages[];
+	preview: IPreview;
 }
 
 
@@ -41,14 +54,6 @@ class StoriesStore implements Store {
     console.log("StoriesStore -> fetchData -> titles", titles)
 		this.stories = data;
 		this.storieTitles = titles;
-	}
-
-	get allStories() {
-		return this.stories;
-	}
-
-	get titles() {
-		return this.storieTitles;
 	}
 
 };
