@@ -2,10 +2,27 @@
 	{
 		"title": "Insomnia",
 		"description": "A human that can't fall asleep",
+		"preview": {
+			"background": "#0c0101",
+			"title": "What dreams do you see most often?"
+		},
 		"stages": [
 			{
 				"stage": "initial-stage",
 				"title": "I can’t fall asleep for so long ... Maybe this medicine will help me?",
+				"background": {
+					"color": "#253237",
+					"img": "https://awv3node-homepage.surge.sh/build/assets/stars.svg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2007/2007907.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 1},
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 2},
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 3},
+					{ "url": "https://image.flaticon.com/icons/svg/740/740882.svg", "index" : 4},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
+				],
 				"actions": [
 					{ "label": "Take a pill", "nextStage": "happy-end" },
 					{ "label": "Don't drink the pill", "nextStage": "rabbit-stage" }
@@ -14,6 +31,17 @@
 			{
 				"stage": "rabbit-stage",
 				"title": "You dreamed that you were Alice in Wonderland. A rabbit without pants with hints of a sexual nature runs to you",
+				"background": {
+					"color": "#253237",
+					"img": "https://svgsilh.com/svg_v2/160883.svg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2007/2007907.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/2868/2868331.svg", "index" : 1},
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 3},
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 4},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5}
+				],
 				"actions": [
 					{ "label": "Hm, let's see...", "nextStage": "final-stage" },
 					{ "label": "To run!", "nextStage": "final-stage" }
@@ -21,67 +49,34 @@
 			},
 			{
 				"stage": "final-stage",
-				"title": "You even didn't notice how a rabbit did it, but now you're one of a lot of his victims",
+				"title": "You even didn't notice how a rabbit did it, but now you're one of a lot of his victims.",
+				"background": {
+					"color": "#253237",
+					"img": "https://svgsilh.com/svg/310072.svg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2487/2487401.svg", "index": 2 }
+				],
 				"actions": [
-					{ "label": "Close", "nextStage": null }
-				]
-			}
-		]
-	},
-	{
-		"title": "Insomnia",
-		"description": "A human that can't fall asleep",
-		"stages": [
-			{
-				"stage": "initial-stage",
-				"title": "I can’t fall asleep for so long ... Maybe this medicine will help me?",
-				"actions": [
-					{ "label": "Take a pill", "nextStage": "happy-end" },
-					{ "label": "Don't drink the pill", "nextStage": "rabbit-stage" }
+					{ "label": "Uh...", "nextStage": null }
 				]
 			},
 			{
-				"stage": "rabbit-stage",
-				"title": "You dreamed that you were Alice in Wonderland. A rabbit without pants with hints of a sexual nature runs to you",
+				"stage": "happy-end",
+				"title": "Your dreams are so sweet!",
+				"background": {
+					"color": "#07115b",
+					"img": "https://awv3node-homepage.surge.sh/build/assets/stars.svg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2007/2007907.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/1347/1347674.svg", "index" : 2},
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 3},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
+				],
 				"actions": [
-					{ "label": "Hm, let's see...", "nextStage": "final-stage" },
-					{ "label": "To run!", "nextStage": "final-stage" }
-				]
-			},
-			{
-				"stage": "final-stage",
-				"title": "You even didn't notice how a rabbit did it, but now you're one of a lot of his victims",
-				"actions": [
-					{ "label": "Close", "nextStage": null }
-				]
-			}
-		]
-	},
-	{
-		"title": "Insomnia",
-		"description": "A human that can't fall asleep",
-		"stages": [
-			{
-				"stage": "initial-stage",
-				"title": "I can’t fall asleep for so long ... Maybe this medicine will help me?",
-				"actions": [
-					{ "label": "Take a pill", "nextStage": "happy-end" },
-					{ "label": "Don't drink the pill", "nextStage": "rabbit-stage" }
-				]
-			},
-			{
-				"stage": "rabbit-stage",
-				"title": "You dreamed that you were Alice in Wonderland. A rabbit without pants with hints of a sexual nature runs to you",
-				"actions": [
-					{ "label": "Hm, let's see...", "nextStage": "final-stage" },
-					{ "label": "To run!", "nextStage": "final-stage" }
-				]
-			},
-			{
-				"stage": "final-stage",
-				"title": "You even didn't notice how a rabbit did it, but now you're one of a lot of his victims",
-				"actions": [
-					{ "label": "Close", "nextStage": null }
+					{ "label": "Zzzzz...", "nextStage": null }
 				]
 			}
 		]
