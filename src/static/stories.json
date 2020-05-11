@@ -29,7 +29,7 @@
 			},
 			{
 				"stage": "rabbit-stage",
-				"title": "You dreamed that you were Alice in Wonderland. A rabbit without pants with hints of a sexual nature runs to you",
+				"title": "You dreamed that you were Alice in Wonderland. A rabbit without pants with a menacing look runs to you.",
 				"background": {
 					"color": "#253237",
 					"img": "https://svgsilh.com/svg_v2/160883.svg"
@@ -108,8 +108,11 @@
 					"img": "https://static.vecteezy.com/system/resources/thumbnails/000/181/709/original/AForest3.jpg"
 				},
 				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 0},
+					{ "url": "https://image.flaticon.com/icons/svg/2321/2321573.svg", "index": 5 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 1},
 					{ "url": "https://image.flaticon.com/icons/svg/1998/1998571.svg", "index": 2 },
-					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 3},
 					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
 				],
 				"actions": [
@@ -124,8 +127,11 @@
 					"img": "https://static.vecteezy.com/system/resources/thumbnails/000/181/709/original/AForest3.jpg"
 				},
 				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 0},
+					{ "url": "https://image.flaticon.com/icons/svg/2321/2321573.svg", "index": 5 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 1},
 					{ "url": "https://image.flaticon.com/icons/svg/1998/1998571.svg", "index": 2 },
-					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 3},
 					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
 				],
 				"actions": [
@@ -141,8 +147,11 @@
 					"color": "#84bee6"
 				},
 				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2698/2698194.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 0},
+					{ "url": "https://image.flaticon.com/icons/svg/765/765586.svg", "index": 1 },
 					{ "url": "https://image.flaticon.com/icons/svg/1998/1998571.svg", "index": 2 },
-					{ "url": "https://image.flaticon.com/icons/svg/765/765586.svg", "index": 0 }
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 3}
 				],
 				"actions": [
 					{ "label": "Yes, why not", "nextStage": "death-from-overeating" },
@@ -156,9 +165,10 @@
 					"img": "https://static.vecteezy.com/system/resources/thumbnails/000/181/290/original/Abstract_Forest_Illustration.jpg"
 				},
 				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2698/2698194.svg", "index": 0 },
 					{ "url": "https://image.flaticon.com/icons/svg/614/614107.svg", "index": 2 },
-					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 1},
-					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 4}
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6 }
 				],
 				"actions": [
 					{ "label": "Why not, this fox doesn't look evil", "nextStage": "death-from-fox" },
@@ -207,11 +217,97 @@
 				"assets": [
 					{ "url": "https://image.flaticon.com/icons/svg/2007/2007907.svg", "index": 0 },
 					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 1 },
-					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 5 },
-					{ "url": "https://image.flaticon.com/icons/svg/1083/1083425.svg", "index": 2 }
+					{ "url": "https://image.flaticon.com/icons/svg/1083/1083425.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 4 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6 }
 				],
 				"actions": [
 					{ "label": "Yeah, I am like this", "nextStage": null }
+				]
+			}
+		]
+	},
+	{
+		"title": "The choice",
+		"preview": {
+			"background": "#494848",
+			"title": "You always will do choice"
+		},
+		"stages": [
+			{
+				"stage": "initial-stage",
+				"title": "You just woke up and feel very hungry. What do you choose?",
+				"background": {
+					"img": "https://i.pinimg.com/originals/93/83/44/938344b7b5efbb48271ba5791951e72a.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/png/512/1917/1917645.png", "index": 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/1373/1373075.svg", "index": 2 },
+					{ "url": "https://www.flaticon.com/premium-icon/icons/svg/2154/2154030.svg", "index": 5 }
+				],
+				"actions": [
+					{ "label": "I like vegetables on breakfast! Let's go to the grocery store!", "nextStage": "grocery-store" },
+					{ "label": "Fast food is my choiсe! Where are my pants?", "nextStage": "fast-food" }
+				]
+			},
+			{
+				"stage": "fast-food",
+				"title": "There are two options, you can choose only one. Be careful.",
+				"background": {
+					"img": "https://i.pinimg.com/originals/aa/ec/32/aaec320b4572092f73be82aed59b4883.png"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/1920/1920525.svg", "index": 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/541/541769.svg", "index": 3 },
+					{ "url": "https://www.flaticon.com/premium-icon/icons/svg/771/771371.svg", "index": 2 }
+				],
+				"actions": [
+					{ "label": "Shawarma of course!", "nextStage": "happy-end" },
+					{ "label": "It will be doner!", "nextStage": "poison-dead" }
+				]
+			},
+			{
+				"stage": "happy-end",
+				"title": "It was delicious! You have eaten well and are ready for great achievements! Forward!",
+				"background": {
+					"img": "https://pluspng.com/img-png/starry-sky-background-png-starry-night-sky-background-by-aoarchangel-1678.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/1054/1054436.svg", "index": 5 },
+					{ "url": "https://image.flaticon.com/icons/svg/2669/2669728.svg", "index": 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/1920/1920525.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/2456/2456670.svg", "index": 0 },
+					{ "url": "https://www.flaticon.com/premium-icon/icons/svg/2061/2061063.svg", "index": 6 }
+				],
+				"actions": [
+					{ "label": "Let's face to future!", "nextStage": null }
+				]
+			},
+			{
+				"stage": "poison-dead",
+				"title": "Oh no! You poisoned and died! But I warned you to be careful...",
+				"background": {
+					"img": "https://ak.picdn.net/shutterstock/videos/12211040/thumb/1.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/743/743225.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/png/512/821/821872.png", "index": 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
+				],
+				"actions": [
+					{ "label": "Oh, my...", "nextStage": null }
+				]
+			},
+			{
+				"stage": "grocery-store",
+				"title": "There should be scene in grocery store, but please, enjoy this cat",
+				"background": {
+					"img":"https://i.ytimg.com/vi/CUapPhdM7nc/maxresdefault.jpg"
+				},
+				"assets": [],
+				"actions": [
+					{ "label": "That always works", "nextStage": null }
 				]
 			}
 		]
