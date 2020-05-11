@@ -5,7 +5,7 @@ import { inject, observer } from "mobx-react";
 
 import { useParams } from "react-router-dom";
 
-import { FadeTitle, ParallaxBackground } from "../../animations";
+import { FadeTitle, ParallaxBackground } from "../../common";
 import { calc, interpolateFns } from "./animations/helpers";
 
 import { IActions, IAsset } from "../../types";

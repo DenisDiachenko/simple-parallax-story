@@ -4,7 +4,7 @@ import { inject, observer } from "mobx-react";
 
 import { AnimatedMenu } from "./animations";
 
-import { FadeTitle, ParallaxBackground } from "../../animations";
+import { FadeTitle, ParallaxBackground } from "../../common";
 
 import { Store } from "../../store";
 
