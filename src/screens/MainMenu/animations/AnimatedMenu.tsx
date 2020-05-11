@@ -1,4 +1,7 @@
 import React, { memo } from "react";
+
+import { Link } from 'react-router-dom';
+
 import { useTrail, animated } from "react-spring";
 
 interface IProps {
@@ -25,9 +28,11 @@ export const AnimatedMenu = memo(({ className, options }: IProps) => {
             transform: x.interpolate((x) => `translate3d(0,${x}px,0)`),
           }}
         >
-          <animated.div className={className} style={{ height }}>
-            {options[index]}
-          </animated.div>
+          <Link to={`/story/preview/${options[index]}`}>
+            <animated.div className={className} style={{ height }}>
+                {options[index]}
+            </animated.div>
+          </Link>
         </animated.div>
       ))}
     </>

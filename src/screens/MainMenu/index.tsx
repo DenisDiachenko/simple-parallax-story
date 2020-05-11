@@ -2,7 +2,9 @@ import React, { useState } from "react";
 
 import { inject, observer } from "mobx-react";
 
-import { FadeTitle, AnimatedMenu, ParallaxBackground } from "./animations";
+import { AnimatedMenu } from "./animations";
+
+import { FadeTitle, ParallaxBackground } from "../../animations";
 
 import { Store } from "../../store";
 
@@ -13,7 +15,7 @@ import {
   trans3,
   trans4,
   trans5,
-} from './animations/helpers';
+} from "./animations/helpers";
 
 import style from "./style.module.scss";
 
@@ -22,14 +24,29 @@ interface IProps {
 }
 
 const bgOptions = [
-  { img: "card1", interpolateFn: trans1 },
-  { img: "card2", interpolateFn: trans2 },
-  { img: "card2", interpolateFn: trans3 },
-  { img: "card2", interpolateFn: trans4 },
-  { img: "card2", interpolateFn: trans5 },
+  {
+    url: "https://image.flaticon.com/icons/svg/789/789395.svg",
+    interpolateFn: trans1,
+  },
+  {
+    url: "https://image.flaticon.com/icons/svg/414/414927.svg",
+    interpolateFn: trans2,
+  },
+  {
+    url: "https://image.flaticon.com/icons/svg/414/414927.svg",
+    interpolateFn: trans3,
+  },
+  {
+    url: "https://image.flaticon.com/icons/svg/414/414927.svg",
+    interpolateFn: trans4,
+  },
+  {
+    url: "https://image.flaticon.com/icons/svg/414/414927.svg",
+    interpolateFn: trans5,
+  },
 ];
 
-const Menu = observer(({ store }: IProps) => {
+const MainMenu = observer(({ store }: IProps) => {
   const { storieTitles } = store!;
 
   const [coords, setCoords] = useState({ xy: [0, 0] });
@@ -52,4 +69,4 @@ const Menu = observer(({ store }: IProps) => {
   );
 });
 
-export default inject("store")(Menu);
+export default inject("store")(MainMenu);
