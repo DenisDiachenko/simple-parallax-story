@@ -50,7 +50,7 @@ const Preview = observer(({ store }: IProps) => {
       }}
       className={style.container}
     >
-        <animated.div style={props}>
+        <animated.div style={{ ...props, textAlign: 'center'}}>
           {preview.title}
         </animated.div>
     </div>
