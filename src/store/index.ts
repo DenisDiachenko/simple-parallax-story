@@ -51,7 +51,6 @@ class StoriesStore implements Store {
 	async fetchData() {
 		const data: IStory[] = await fetchStories();
 		const titles = data.map((item) => item.title);
-    console.log("StoriesStore -> fetchData -> titles", titles)
 		this.stories = data;
 		this.storieTitles = titles;
 	}
