@@ -1,0 +1,91 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+	overflow: hidden;
+	position: relative;
+	color: #eaf3f7;
+	background-size: cover;
+
+	.content {
+		display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+		width: 100%;
+		z-index: 1;
+
+		.text {
+			padding: 10px 25px
+		}
+
+		.actions {
+			padding: 10px 25px;
+			padding-bottom: 30px;
+
+			.action {
+
+				padding: 10px 15px;
+				border: 1px solid transparent;
+				width: max-content;
+				position: relative;
+
+				&:hover {
+					cursor: pointer;
+				}
+
+				&:after {
+					content: '';
+					display: block;
+					position: absolute;
+					top: 0; right: 0; bottom: 0; left: 0;
+					border: solid 1px transparent;
+					border-radius: 10px;
+					z-index: -1;
+					transition: border 0.2s linear;
+				}
+
+				&:hover::after {
+					border: 1px solid #eaf3f7;
+				}
+
+				&:first-child {
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+
+	.hover {
+		position: absolute;
+    bottom: 0;
+		width: 100%;
+		background: #82878e;
+    opacity: 0.9;
+		height: 220px;
+		z-index: 0;
+	}
+
+	.card {
+		position: absolute;
+  	border-radius: 5px;
+  	background-size: cover;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	will-change: transform;
+		width: 30vh;
+		height: 30vh;
+		background-repeat: no-repeat;
+	}
+
+	@media screen and (max-width: 670px) {
+		.card {
+			width: 18vh;
+			height: 18vh;
+		}
+	}
+
+}

@@ -1,0 +1,315 @@
+[
+	{
+		"title": "Insomnia",
+		"preview": {
+			"background": "#0c0101",
+			"title": "What dreams do you see most often?"
+		},
+		"stages": [
+			{
+				"stage": "initial-stage",
+				"title": "I can’t fall asleep for so long ... Maybe this medicine will help me?",
+				"background": {
+					"color": "#253237",
+					"img": "https://awv3node-homepage.surge.sh/build/assets/stars.svg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2007/2007907.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 1},
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 2},
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 3},
+					{ "url": "https://image.flaticon.com/icons/svg/740/740882.svg", "index" : 4},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
+				],
+				"actions": [
+					{ "label": "Take a pill", "nextStage": "happy-end" },
+					{ "label": "Don't drink the pill", "nextStage": "rabbit-stage" }
+				]
+			},
+			{
+				"stage": "rabbit-stage",
+				"title": "You dreamed that you were Alice in Wonderland. A rabbit without pants with a menacing look runs to you.",
+				"background": {
+					"color": "#253237",
+					"img": "https://svgsilh.com/svg_v2/160883.svg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2007/2007907.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/2868/2868331.svg", "index" : 1},
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 3},
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 4},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5}
+				],
+				"actions": [
+					{ "label": "Hm, let's see...", "nextStage": "final-stage" },
+					{ "label": "To run!", "nextStage": "final-stage" }
+				]
+			},
+			{
+				"stage": "final-stage",
+				"title": "You even didn't notice how a rabbit did it, but now you're one of a lot of his victims.",
+				"background": {
+					"color": "#253237",
+					"img": "https://svgsilh.com/svg/310072.svg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2487/2487401.svg", "index": 2 }
+				],
+				"actions": [
+					{ "label": "Uh...", "nextStage": null }
+				]
+			},
+			{
+				"stage": "happy-end",
+				"title": "Your dreams are so sweet!",
+				"background": {
+					"color": "#07115b",
+					"img": "https://awv3node-homepage.surge.sh/build/assets/stars.svg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2007/2007907.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/1347/1347674.svg", "index" : 2},
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 3},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
+				],
+				"actions": [
+					{ "label": "Zzzzz...", "nextStage": null }
+				]
+			}
+		]
+	},
+	{
+		"title": "Donut",
+		"preview": {
+			"background": "#e08764",
+			"title": "Why not become a donut?"
+		},
+		"stages": [
+			{
+				"stage": "initial-stage",
+				"title": "You are the donut who just escaped from the bakery. Want an adventure?",
+				"background": {
+					"img": "https://img.freepik.com/free-vector/modern-city-skyline-background_77417-791.jpg?size=626&ext=jpg"
+				},
+				"assets": [
+					{ "url": "https://www.flaticon.com/premium-icon/icons/svg/783/783083.svg", "index": 2 }
+				],
+				"actions": [
+					{ "label": "Yes! I was baked for this!!", "nextStage": "meet-bear"},
+					{ "label": "No, I'm too scared to face the future!", "nextStage": "forced-meet-bear"}
+				]
+			},
+			{
+				"stage": "meet-bear",
+				"title": "You headed down the path to the forest. At the entrance to the forest you met a bear. He suggested going to the bushes to eat berries.",
+				"background": {
+					"img": "https://static.vecteezy.com/system/resources/thumbnails/000/181/709/original/AForest3.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 0},
+					{ "url": "https://image.flaticon.com/icons/svg/2321/2321573.svg", "index": 5 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 1},
+					{ "url": "https://image.flaticon.com/icons/svg/1998/1998571.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 3},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
+				],
+				"actions": [
+					{ "label": "Oh yes, I love berries and bears!", "nextStage": "in-the-bushes" },
+					{ "label": "I won’t go with him, he looks very suspicious", "nextStage": "meet-fox" }
+				]
+			},
+			{
+				"stage": "forced-meet-bear",
+				"title": "A strong wind blew and brought you into the forest, and you rolled right to the bear. He suggested eating berries",
+				"background": {
+					"img": "https://static.vecteezy.com/system/resources/thumbnails/000/181/709/original/AForest3.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 0},
+					{ "url": "https://image.flaticon.com/icons/svg/2321/2321573.svg", "index": 5 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 1},
+					{ "url": "https://image.flaticon.com/icons/svg/1998/1998571.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 3},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
+				],
+				"actions": [
+					{ "label": "Oh yes, I love berries and bears!", "nextStage": "in-the-bushes" },
+					{ "label": "I won’t go with him, he looks very suspicious", "nextStage": "meet-fox" }
+				]
+			},
+			{
+				"stage": "in-the-bushes",
+				"title": "You came to a bush with raspberries and started eating raspberries. You feel very full, but the sneaky bear offered even more berries.",
+				"background": {
+					"img": "https://image.flaticon.com/icons/svg/1147/1147600.svg",
+					"color": "#84bee6"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2698/2698194.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 0},
+					{ "url": "https://image.flaticon.com/icons/svg/765/765586.svg", "index": 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/1998/1998571.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 3}
+				],
+				"actions": [
+					{ "label": "Yes, why not", "nextStage": "death-from-overeating" },
+					{ "label": "No, I'm full and go my way", "nextStage": "meet-fox" }
+				]
+			},
+			{
+				"stage": "meet-fox",
+				"title": "Further in the forest you met a hungry fox. You are very dusty and she invited you to wash in the lake.",
+				"background": {
+					"img": "https://static.vecteezy.com/system/resources/thumbnails/000/181/290/original/Abstract_Forest_Illustration.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2698/2698194.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/614/614107.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6 }
+				],
+				"actions": [
+					{ "label": "Why not, this fox doesn't look evil", "nextStage": "death-from-fox" },
+					{ "label": "Hmm, very suspicious, I'll probably go from here.", "nextStage": "happy-end" }
+				]
+			},
+			{
+				"stage": "death-from-overeating",
+				"title": "You ate too many berries, and the dough was not ready for so many toppings. You are dead. See you in the next story.",
+				"background": {
+					"img": "https://image.flaticon.com/icons/svg/1147/1147600.svg",
+					"color": "#84bee6"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2083/2083740.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/2487/2487401.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/2083/2083740.svg", "index": 3 },
+					{ "url": "https://image.flaticon.com/icons/svg/2083/2083740.svg", "index": 4 },
+					{ "url": "https://image.flaticon.com/icons/svg/2083/2083740.svg", "index": 5 }
+				],
+				"actions": [
+					{ "label": "I will follow a healthy diet", "nextStage": null }
+				]
+			},
+			{
+				"stage": "death-from-fox",
+				"title": "After washing, the fox ate you. But do not be sad, animals can not digest wet dough. You took her with you.",
+				"background": {
+					"img": "https://img.freepik.com/free-vector/_82574-7683.jpg?size=626&ext=jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/1940/1940970.svg", "index": 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/2487/2487401.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/2532/2532414.svg", "index": 6 }
+				],
+				"actions": [
+					{ "label": "I will not eat wet dough", "nextStage": null }
+				]
+			},
+			{
+				"stage": "happy-end",
+				"title": "You died of old age with the famous donut. Your caution kept you. Respect +",
+				"background": {
+					"img": "https://cdn.clipart.email/f8b42cae004af0800b6690e4034a2bba_cityscape-clipart-city-night-pencil-and-in-color-cityscape-_1920-1080.jpeg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/2007/2007907.svg", "index": 0 },
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/1083/1083425.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/616/616493.svg", "index" : 4 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6 }
+				],
+				"actions": [
+					{ "label": "Yeah, I am like this", "nextStage": null }
+				]
+			}
+		]
+	},
+	{
+		"title": "The choice",
+		"preview": {
+			"background": "#494848",
+			"title": "You always will do choice"
+		},
+		"stages": [
+			{
+				"stage": "initial-stage",
+				"title": "You just woke up and feel very hungry. What do you choose?",
+				"background": {
+					"img": "https://i.pinimg.com/originals/93/83/44/938344b7b5efbb48271ba5791951e72a.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/png/512/1917/1917645.png", "index": 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/1373/1373075.svg", "index": 2 },
+					{ "url": "https://www.flaticon.com/premium-icon/icons/svg/2154/2154030.svg", "index": 5 }
+				],
+				"actions": [
+					{ "label": "I like vegetables on breakfast! Let's go to the grocery store!", "nextStage": "grocery-store" },
+					{ "label": "Fast food is my choiсe! Where are my pants?", "nextStage": "fast-food" }
+				]
+			},
+			{
+				"stage": "fast-food",
+				"title": "There are two options, you can choose only one. Be careful.",
+				"background": {
+					"img": "https://i.pinimg.com/originals/aa/ec/32/aaec320b4572092f73be82aed59b4883.png"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/1920/1920525.svg", "index": 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/541/541769.svg", "index": 3 },
+					{ "url": "https://www.flaticon.com/premium-icon/icons/svg/771/771371.svg", "index": 2 }
+				],
+				"actions": [
+					{ "label": "Shawarma of course!", "nextStage": "happy-end" },
+					{ "label": "It will be doner!", "nextStage": "poison-dead" }
+				]
+			},
+			{
+				"stage": "happy-end",
+				"title": "It was delicious! You have eaten well and are ready for great achievements! Forward!",
+				"background": {
+					"img": "https://pluspng.com/img-png/starry-sky-background-png-starry-night-sky-background-by-aoarchangel-1678.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/1054/1054436.svg", "index": 5 },
+					{ "url": "https://image.flaticon.com/icons/svg/2669/2669728.svg", "index": 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/1920/1920525.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/svg/2456/2456670.svg", "index": 0 },
+					{ "url": "https://www.flaticon.com/premium-icon/icons/svg/2061/2061063.svg", "index": 6 }
+				],
+				"actions": [
+					{ "label": "Let's face to future!", "nextStage": null }
+				]
+			},
+			{
+				"stage": "poison-dead",
+				"title": "Oh no! You poisoned and died! But I warned you to be careful...",
+				"background": {
+					"img": "https://ak.picdn.net/shutterstock/videos/12211040/thumb/1.jpg"
+				},
+				"assets": [
+					{ "url": "https://image.flaticon.com/icons/svg/743/743225.svg", "index": 2 },
+					{ "url": "https://image.flaticon.com/icons/png/512/821/821872.png", "index": 1 },
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 5},
+					{ "url": "https://image.flaticon.com/icons/svg/414/414927.svg", "index" : 6}
+				],
+				"actions": [
+					{ "label": "Oh, my...", "nextStage": null }
+				]
+			},
+			{
+				"stage": "grocery-store",
+				"title": "There should be scene in grocery store, but please, enjoy this cat",
+				"background": {
+					"img":"https://i.ytimg.com/vi/CUapPhdM7nc/maxresdefault.jpg"
+				},
+				"assets": [],
+				"actions": [
+					{ "label": "That always works", "nextStage": null }
+				]
+			}
+		]
+	}
+]
